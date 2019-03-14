@@ -12,7 +12,7 @@ Three important elements:
 
 Bidders:
 -see partial information set by the sellers to see if the information is legit or not
--have to deposit the reserve price
+-have to deposit the min bid price
 
 House:
 -have the encrypted full text
@@ -22,7 +22,7 @@ House:
 Seller:
 -stored encrypted version of the information on the server
 -has private key to the encryption
--decide the reserve price and time duration for the bidding
+-decide the reserve price, min price, time duration for the bidding
 -submits a hash of a random value (commit) and then reveals it and it gets hashed together with a block hash
 
 Winner:
