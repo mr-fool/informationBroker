@@ -3,10 +3,11 @@ InformationBroker
 Requirements:
 
 Three important elements:
-Bidders
-House
-Seller
-Winner 
+
+-Bidders
+-House
+-Seller
+-Winner 
 
 Bidders:
 -see partial information set by the sellers to see if the information is legit or not
