@@ -12,6 +12,7 @@ Three important elements:
 
 Bidders:
 -see partial information set by the sellers to see if the information is legit or not
+-have to deposit the reserve price
 
 House:
 -have the encrypted full text
