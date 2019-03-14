@@ -1,0 +1,31 @@
+InformationBroker
+
+Requirements:
+
+Three important elements:
+Bidders
+House
+Seller
+Winner 
+
+Bidders:
+-see partial information set by the sellers to see if the information is legit or not
+
+House:
+-have the encrypted full text
+-no access to plain text
+-takes house fee for service
+
+Seller:
+-controls the part to reveal the legitimacy
+-stored encrypted version of the information on the server
+-has private key to the encryption
+-decide the reserve price and time duration for the bidding
+
+Winner:
+-has 24 hours to pay
+-then receive the decryption key
+
+Issue: 
+The exchange between seller and winner
+-how to ensure the decryption key is good
