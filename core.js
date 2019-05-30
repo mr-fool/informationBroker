@@ -1,5 +1,5 @@
 //Importing all the dependencies
-
+require('dotenv').config()
 const request = require('request-promise');
 const fs = require('fs');
 const Utils = require('./temporal-js/test/utils');
