@@ -2,7 +2,7 @@
 
 const request = require('request-promise');
 const fs = require('fs');
-const Utils = require('./temproal-js/test/utils');
+const Utils = require('./temporal-js/test/utils');
 const Temporal = require('./temporal-js');
 
 const temporal = new Temporal();
