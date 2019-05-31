@@ -7,7 +7,7 @@ const Temporal = require('./temporal-js');
 
 const temporal = new Temporal();
 
-temporal.register("user", "email", "password")
+temporal.register(process.env.USERNAME, process.env.EMAIL, process.env.PASSWORD)
 .then(() => {
     console.log('User is registered!');
 })
